@@ -1,1 +1,23 @@
 /* your styles go here */
+
+@media (max-width: 767.98px) {
+  .smaller-title {
+    font-size: 1.4em;
+  }
+  .responsive-center-text {
+    text-align: justify!important;
+  }
+}
+.techno:after {
+    content: " ";
+    display: block;
+    align-items: center;
+    width: 100px;
+    height: 1px;
+    margin: 20px 0 20px;
+    background: #555;
+  }
+
+  .img-project {
+    max-width: 100%;
+  }
