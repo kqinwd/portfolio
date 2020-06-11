@@ -7,6 +7,9 @@
   .responsive-center-text {
     text-align: justify!important;
   }
+  .project-link {
+    text-align: center;
+  } 
 }
 .techno:after {
     content: " ";
