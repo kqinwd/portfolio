@@ -49,3 +49,15 @@
   .box h6 {
     font-size: 0.7rem;
   }
+
+  .xp h5 {
+    font-size: 1rem;
+    margin-bottom: 0!important;
+  }
+  .xp h6 {
+    font-size: 0.8rem;
+  }
+
+  .text-page h4 {
+    margin-bottom: 2rem;
+  }
