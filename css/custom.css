@@ -76,6 +76,30 @@
   .project-section h4 {
     font-size: 1.1rem;
   }
+
+  .typo-choice {
+    font-family: 'Comfortaa', cursive;
+    font-size: 3rem;
+  }
+
+  .thalisman-colors {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    border: 1px solid;
+  }
+
+   #thalisman-color-blue {
+    background-color: #3C9D9B;
+  }
+
+  #thalisman-color-grey {
+    background-color: #EFEFEF;
+  }
+
+  #thalisman-color-black {
+    background-color: #000000;
+  }
   /* h3, h4, h5 {
     color: #00635D;
   } */
