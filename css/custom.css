@@ -64,3 +64,18 @@
   .text-page h4 {
     margin-bottom: 2rem;
   }
+
+  .project-section {
+    padding-top: 30px;
+  }
+
+  .project-section h1 {
+    font-size: 1.6rem;
+  }
+
+  .project-section h4 {
+    font-size: 1.1rem;
+  }
+  /* h3, h4, h5 {
+    color: #00635D;
+  } */
