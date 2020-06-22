@@ -5068,17 +5068,17 @@ a.badge-light:focus, a.badge-light.focus {
   box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
 }
 
-.badge-dark {
+.badge-color {
   color: #fff;
   background-color: #343a40;
 }
 
-a.badge-dark:hover, a.badge-dark:focus {
+a.badge-color:hover, a.badge-color:focus {
   color: #fff;
   background-color: #1d2124;
 }
 
-a.badge-dark:focus, a.badge-dark.focus {
+a.badge-color:focus, a.badge-color.focus {
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }

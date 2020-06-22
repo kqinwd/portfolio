@@ -103,6 +103,15 @@
   #thalisman-color-black {
     background-color: #000000;
   }
+
+  .badge-color {
+    background-color: #469B9B;
+    color: white;
+  }
+
+  #cv:hover {
+    color: #333;
+  }
   /* h3, h4, h5 {
     color: #00635D;
   } */
