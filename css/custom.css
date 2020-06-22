@@ -5,14 +5,25 @@
   .smaller-title {
     font-size: 1.4em;
   }
+
   .responsive-center-text {
     text-align: justify!important;
   }
+
   .project-link {
     text-align: center;
-  } 
+  }
+
   .box h6 {
     text-align: center;
+  }
+  
+  .project-section h1 {
+    font-size: 1.6rem;
+  }
+
+  .project-section h4 {
+    font-size: 1.1rem;
   }
 }
 
@@ -67,14 +78,6 @@
 
   .project-section {
     padding-top: 30px;
-  }
-
-  .project-section h1 {
-    font-size: 1.6rem;
-  }
-
-  .project-section h4 {
-    font-size: 1.1rem;
   }
 
   .typo-choice {
