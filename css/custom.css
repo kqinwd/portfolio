@@ -26,6 +26,7 @@
     font-size: 1.1rem;
   }
 }
+/* -------------------------------- */
 
 .subtitle {
   font-size: 0.8rem;
@@ -112,6 +113,22 @@
   #cv:hover {
     color: #333;
   }
-  /* h3, h4, h5 {
-    color: #00635D;
-  } */
+
+  .btn-project {
+    color: #fff;
+    background-color: #469B9B;
+    border-color: #469B9B;
+  }
+
+  .btn-project-outline {
+    border-color: #333;
+    background-color: transparent;
+    background-image: none;
+  }
+
+  .btn-project-outline:hover {
+    color: #fff;
+    border-color: #469B9B;
+    background-color: #469B9B;
+    background-image: none;
+  }
