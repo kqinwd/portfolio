@@ -24,7 +24,7 @@
 
   .project-section h4 {
     font-size: 1.1rem;
-  }
+  } 
 }
 /* -------------------------------- */
 
@@ -135,4 +135,13 @@
 
   #link-museum a {
     color: #469B9B;
+    font-weight: bold;
+  }
+
+  .ancre-projet {
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    
   }

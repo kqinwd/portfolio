@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Valentin Escalle Portfolio | Open Museum</title>
+    <title>Open Museum | Valentin Escalle Portfolio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -22,7 +22,7 @@
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="../css/custom.css">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="../img/favicon.png">
     <!-- Leaflet CSS - For the map-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
     <!-- Tweaks for older IEs-->
@@ -52,7 +52,7 @@
                     class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
                 <div id="navbarSupportedContent" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="../index.html/#about" class="nav-link">A propos</a>
+                        <li class="nav-item"><a href="../index.html#about" class="nav-link">A propos</a>
                         </li>
                         <li class="nav-item"><a href="../index.html#services"
                                 class="nav-link link-scroll">Compétences</a></li>
@@ -64,11 +64,12 @@
             </div>
         </nav>
     </header>
+
     <section style="background-color: #eee">
-        <a href="../index.html#portfolio">
-            <p class="ml-5">
-                < Retour au portfolio</p>
-        </a>
+        <div class="d-none d-lg-block ancre-projet">
+            <a href="../index.html#portfolio" class="ml-5">
+                < Retour au portfolio </a>
+        </div>
         <div class="container">
 
             <article>
@@ -77,9 +78,13 @@
                 </h4>
                 <div class="row mt-5">
                     <div class="col-lg-6 text-justify responsive-center-text">
-                        <p>Open Museum est une application web permettant d'obtenir la liste des musées de la région
+                        <p> <span class="text-bold">Open Museum</span> est une application web permettant
+                            d'obtenir la
+                            liste des musées de la région
                             PACA.
-                            L'application se base sur une architecture REST et a été developpée avec la stack MEAN :
+                            L'application se base sur une architecture <span class="text-bold">REST</span> et a
+                            été
+                            developpée avec la stack <span class="text-bold">MEAN</span> :
                         <ul>
                             <li>MongoDB (Atlas)</li>
                             <li>Express.js</li>
@@ -87,12 +92,12 @@
                             <li>Node.js</li>
                         </ul>
                         Tous les musées disposent d'une fiche d'informations utiles ainsi qu'une carte indiquant
-                        l'adresse du musée implémentée avec Leaflet.
+                        l'adresse du musée implémentée avec <span class="text-bold">Leaflet</span>.
                         </p>
                         <p>Vous pouvez retrouver les données brutes des musées <span id="link-museum"> <a
                                     href="https://trouver.datasud.fr/dataset/musees-labellises-musee-de-france-en-region-provence-alpes-cote-dazur/resource/524030ad-32ce-4780-b662-54e9fe3af839"
                                     target="_blank">
-                                    ici </a> </span></p>
+                                    ici</a></span>.</p>
                         <form method="get" action="https://github.com/kqinwd/openmuseum" target="_blank"
                             class="mb-3 mt-4 project-link text-center">
                             <button type="submit" class="btn btn-outline-primary">Afficher les sources</button>
