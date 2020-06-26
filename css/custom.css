@@ -145,3 +145,29 @@
     top: 100px;
     
   }
+
+ .particles-js-canvas-el {
+ position: absolute;
+ }
+
+ p.social a.linkedin:hover {
+  background-color: #006192;
+  /* background-color: #0072b1; */
+}
+
+p.social a.github:hover {
+  /* background-color: #aaa; */
+  background-color: #211f1f;
+}
+
+p.social a.email:hover {
+  background-color: #b23121;
+}
+
+#pp_hover {
+  background: url('img/photosnap.png');
+}
+
+#pp_hover:hover {
+  background: url('img/photosnap_hover.png');
+}

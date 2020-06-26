@@ -45,7 +45,10 @@
 </head>
 
 <body>
-  <section id="intro" style="background-image: url('img/backgroundhero3.jpg');" class="intro">
+
+  <section id="intro" class="intro">
+    <div id="particles-js">
+    </div>
     <div class="overlay"></div>
     <div class="content">
       <div class="container clearfix">
@@ -58,8 +61,12 @@
         </div>
       </div>
     </div>
+
+
   </section>
   <!-- intro end-->
+
+
   <!-- navbar-->
   <header class="header">
     <nav class="navbar navbar-expand-lg">
@@ -87,8 +94,9 @@
         <div class="col-lg-6">
           <h2 class="heading">à propos</h2>
           <p class="lead">Quelques mots</p>
-          <p>Futur diplômé du cursus de développeur web full-stack Passerelle
-            Numérique de l’École Centrale de Marseille, je suis actuellement à la recherche d'un poste de développeur
+          <p>Diplômé du cursus de développeur web full-stack Passerelle
+            Numérique de l<span class="text-bold">’École Centrale de Marseille</span>, je suis actuellement à la
+            recherche d'un poste de développeur
             web pour mettre en pratique les compétences acquises au cours de ces neuf mois de formation.</p>
           <p class="social">
             <a href="https://www.linkedin.com/in/valentin-escalle/" title="" class="linkedin" target="_blank">
@@ -705,7 +713,11 @@
   <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
   <script src="vendor/lightbox2/js/lightbox.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.js"> </script>
+  <script src="js/particles.js"></script>
+  <script src="js/particles.min.js"></script>
+  <script src="js/app.js"></script>
   <script src="js/front.js"></script>
+
 </body>
 
 </html>
